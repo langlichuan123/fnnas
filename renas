@@ -106,9 +106,9 @@ uboot_meson_gxbb=("p201.bin" "s905.bin")
 
 # Initialize the target board
 make_board="all"
-# FnNAS image size (Unit: MiB, boot_mb >= 512, root_mb >= 6144)
+# FnNAS image size (Unit: MiB, boot_mb >= 512, root_mb >= 4096)
 boot_mb="512"
-root_mb="6144"
+root_mb="4096"
 # Root partition auto-expansion size (Unit: GiB)
 rootfs_expand="16"
 # Builder signature
